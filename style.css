@@ -174,7 +174,6 @@ body{
 .date-time-container{
     width: 1320px;
     height: 482px;
-    border: 2px solid red;
     border-radius: 16px;
     margin: 0 auto;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
@@ -217,3 +216,103 @@ body{
     text-align: center;
     text-transform: uppercase;
 }
+
+.coming-soon-container{
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.left-side-content{
+    width: 33%;
+    height: 463px;
+    padding-top: 104px;
+    padding-bottom: 104px;
+    padding-left: 0;
+    padding-right: 70px;
+}
+
+.left-side-content .p-title{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.left-side-content .main-title{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.left-side-content .description{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.middle-side-content{
+    width: 33%;
+    height: 463px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 10px solid rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side-content{
+    width: 33%;
+    height: 463px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side-content h2{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 118.33px;
+    padding-top: 112px;
+    padding-right: 149.67px;
+}
+
+.right-side-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    /* text-align: left; */
+    padding-left: 118px;
+}
+
+.right-side-content img{
+    padding-left: 118px;
+    padding-right: 136px;
+}
+
